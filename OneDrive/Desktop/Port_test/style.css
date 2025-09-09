@@ -250,6 +250,9 @@ html {
     border-radius: 50%;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
+    -webkit-tap-highlight-color: transparent;
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .social-link:hover {
@@ -971,6 +974,18 @@ html {
         width: 100%;
         max-width: 250px;
         justify-content: center;
+        min-height: 44px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .social-link {
+        width: 52px;
+        height: 52px;
+    }
+    
+    .project-link {
+        min-height: 44px;
+        padding: 12px 16px;
     }
 }
 
