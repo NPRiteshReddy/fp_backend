@@ -2,10 +2,5 @@
   "buildCommand": "",
   "outputDirectory": ".",
   "devCommand": "",
-  "installCommand": "",
-  "functions": {
-    "app/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "installCommand": ""
 }
