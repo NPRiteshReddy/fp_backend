@@ -14,4 +14,4 @@ from backend_production_ready import app
 
 # Export the FastAPI app for Vercel
 # Vercel expects the ASGI app to be available as 'app'
-handler = app
+# Keep the app variable name for Vercel compatibility
